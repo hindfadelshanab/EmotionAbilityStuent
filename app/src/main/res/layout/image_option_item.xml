@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imageOptionLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_4sdp"
+    android:layout_marginEnd="@dimen/_4sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageOption"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_140sdp"
+
+
+        android:src="@drawable/happy_boy"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+<!--    <ImageView-->
+<!--        android:id="@+id/imageOption"-->
+<!--        android:layout_width="@dimen/_120sdp"-->
+<!--        android:layout_height="@dimen/_120sdp"-->
+<!--        android:layout_marginEnd="@dimen/_12sdp"-->
+<!--        android:layout_marginStart="@dimen/_8sdp"-->
+
+<!--        android:src="@drawable/happy_boy"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:id="@+id/txtImageOptionDesc"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/imageOption"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/imageOption"-->
+<!--        app:layout_constraintStart_toStartOf="@id/imageOption"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:layout_marginBottom="@dimen/_4sdp"-->
+<!--        tools:text="happy"-->
+<!--        android:layout_marginTop="@dimen/_3sdp"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="@dimen/_15ssp"-->
+
+
+<!--        />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
